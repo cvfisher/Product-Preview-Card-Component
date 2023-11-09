@@ -6,13 +6,13 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+  - [Author](#author)
 
 ## Overview
 
@@ -23,15 +23,9 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
-
-![](./images/screencapture-file-home-charlotte-Desktop-Frontend-Mentor-Product-Preview-Card-Component-index-html-2023-11-09-14_43_44.png)
-![](./images/screencapture-file-home-charlotte-Desktop-Frontend-Mentor-Product-Preview-Card-Component-index-html-2023-11-09-14_44_09.png)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://cvfisher.github.io/Product-Preview-Card-Component/)
 
 ## My process
 
