@@ -22,30 +22,29 @@ body {
   text-transform: uppercase;
   color: hsl(228, 12%, 48%);
   letter-spacing: 0.5em;
-  flex: 1;
 }
 
 .header {
   font-family: "Fraunces", serif;
   font-size: 2em;
   line-height: 38px;
-  flex: 1;
+  max-width: 10ch;
 }
 
 .prices {
   display: flex;
-  gap: 2vw;
   align-items: center;
-  flex: 1;
+  max-width: 80%;
 }
 
 .hero-img {
-  flex: 1 1 50%;
+  flex: 0 1 50%;
   border-radius: 15px 0 0 15px;
+  width: 50%;
 }
 
 .right-container {
-  flex: 1 1 50%;
+  flex: 0 1 50%;
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -61,22 +60,62 @@ body {
   align-items: center;
   padding: 1em;
   gap: 1em;
-  flex: 1;
+  width: 100%;
 }
 
 .sale-price {
   color: hsl(158, 36%, 37%);
   font-family: "Fraunces", serif;
   font-size: 2em;
-  flex: 1;
+  width: 100%;
 }
 
 .description,
 .old-price {
   color: hsl(228, 12%, 48%);
-  flex: 1;
 }
 
 .description {
   line-height: 35px;
+  max-width: 100%;
+}
+
+.hero-img-2 {
+  display: none;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    padding: 0 5vw 2vw 5vw;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .hero-img {
+    display: none;
+  }
+  .hero-img-2 {
+    display: block;
+    border-radius: 15px 15px 0 0;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  body {
+    padding: 0 3vw 0 3vw;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-img {
+    display: none;
+  }
+  .hero-img-2 {
+    display: block;
+    border-radius: 15px 15px 0 0;
+  }
 }
